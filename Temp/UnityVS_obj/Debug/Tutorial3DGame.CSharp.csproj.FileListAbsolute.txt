@@ -1,0 +1,15 @@
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\Mono.Cecil.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_bin\Debug\Mono.Cecil.xml
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_obj\Debug\Tutorial3DGame.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\k_tam\Documents\Unity\Tutorial3DGame\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
