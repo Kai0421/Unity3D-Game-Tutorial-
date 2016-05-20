@@ -6,11 +6,14 @@ public class EnemyMovement : MonoBehaviour
     Transform player;
     //PlayerHealth playerHealth;
     //EnemyHealth enemyHealth;
+
+    //NavMash AI to find player automatically
     NavMeshAgent nav;
 
 
     void Awake ()
     {
+        //Find the object in the scene with the tag call Player.
         player = GameObject.FindGameObjectWithTag ("Player").transform;
         //playerHealth = player.GetComponent <PlayerHealth> ();
         //enemyHealth = GetComponent <EnemyHealth> ();

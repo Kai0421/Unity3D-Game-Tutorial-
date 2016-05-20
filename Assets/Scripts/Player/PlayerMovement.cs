@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     Rigidbody playerRigidbody;
     int floorMask;
-    float camRayLength = 100f;
+    float camRayLength = 100f; 
 
     void Awake()
     {
@@ -26,9 +26,9 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //Keys on keyboard
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
-
+        float h = Input.GetAxisRaw("Horizontal"); // Interpolated
+        float v = Input.GetAxisRaw("Vertical"); // Interpolated
+       
         Move(h, v);
         Turning();
         Animating(h, v);
@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         //Move the player position
         //Using this current position + the position that it has moved to
         playerRigidbody.MovePosition(transform.position + movement);
+
     }
 
     //This is based on the mouse input
@@ -82,5 +83,4 @@ public class PlayerMovement : MonoBehaviour
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
     }
-
 }
