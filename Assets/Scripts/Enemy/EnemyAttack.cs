@@ -6,7 +6,6 @@ public class EnemyAttack : MonoBehaviour
     public float timeBetweenAttacks = 0.5f;
     public int attackDamage = 10;
 
-
     Animator anim;
     GameObject player;
     PlayerHealth playerHealth;
@@ -43,7 +42,6 @@ public class EnemyAttack : MonoBehaviour
         }
     }
 
-
     void Update ()
     {
         //Find the time between attack 
@@ -61,7 +59,6 @@ public class EnemyAttack : MonoBehaviour
             anim.SetTrigger ("PlayerDead");
         }
     }
-
     
     void Attack ()
     {

@@ -3,7 +3,6 @@ using System.Collections;
 
 public class CameraFollow : MonoBehaviour
 {
-
     //Third Person Camera
     public Transform lookAt;
     public Transform camTransform;
@@ -11,7 +10,7 @@ public class CameraFollow : MonoBehaviour
     private float distance = 10.0f;
     private float currentX = 0.0f;
     private float currentY = 0.0f;
-    private const float Y_ANGLE_MIN = 0.0f;
+    private const float Y_ANGLE_MIN = 5.0f;
     private const float Y_ANGLE_MAX = 30.0f;
 
     //Target for camera to follow
@@ -47,7 +46,7 @@ public class CameraFollow : MonoBehaviour
         currentY += Input.GetAxis("Mouse Y");
 
         //Dont want to make a y Axis to have a full Loop
-        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
+        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MIN);
     }
 
     private void LateUpdate()

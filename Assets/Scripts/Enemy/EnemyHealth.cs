@@ -8,7 +8,7 @@ public class EnemyHealth : MonoBehaviour
     //sink Speed is used then the enemy dies, make them sink them through the floor.
     //and this is the speed thatthey sink through
     public float sinkSpeed = 2.5f;
-    public int scoreValue = 10; // keep score
+    public int scoreValue = 10; // Each score Value for the enemy
     public AudioClip deathClip;
 
     Animator anim;
@@ -86,6 +86,8 @@ public class EnemyHealth : MonoBehaviour
         //When move the collider, Kinematic prevents recalculating the static geometry.
         GetComponent <Rigidbody> ().isKinematic = true;
         isSinking = true;
+
+        //Count Socre Value 
         ScoreManager.score += scoreValue;
 
         //Destroy the game object after 2 secs, after player no longer sinking.
