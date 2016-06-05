@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial3DGame.CSharp", "Tutorial3DGame.CSharp.csproj", "{EFDFDE44-FAEE-43FC-00D1-163B7341DEA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial3DGame.CSharp.Editor", "Tutorial3DGame.CSharp.Editor.csproj", "{3DD39117-B3B7-2FA6-6352-5FFA07F7BBB8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{EFDFDE44-FAEE-43FC-00D1-163B7341DEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDFDE44-FAEE-43FC-00D1-163B7341DEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDFDE44-FAEE-43FC-00D1-163B7341DEA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DD39117-B3B7-2FA6-6352-5FFA07F7BBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DD39117-B3B7-2FA6-6352-5FFA07F7BBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DD39117-B3B7-2FA6-6352-5FFA07F7BBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DD39117-B3B7-2FA6-6352-5FFA07F7BBB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
