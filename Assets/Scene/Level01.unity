@@ -144,7 +144,7 @@ Camera:
     height: 1
   near clip plane: 1
   far clip plane: 1000
-  field of view: 19.3
+  field of view: 30.5
   orthographic: 0
   orthographic size: 4.5
   m_Depth: -1
@@ -166,8 +166,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33266273}
-  m_LocalRotation: {x: -0.0115318205, y: 0.078852326, z: -0.03047506, w: 0.9963537}
-  m_LocalPosition: {x: 0.262, y: 0.77, z: 0.07}
+  m_LocalRotation: {x: -0.013653231, y: 0.074426204, z: -0.010111202, w: 0.9970818}
+  m_LocalPosition: {x: 0.23, y: 1.57, z: 0.069}
   m_LocalScale: {x: 2.029068, y: 9.86211, z: 2.0290687}
   m_Children: []
   m_Father: {fileID: 0}
@@ -184,8 +184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookAt: {fileID: 472156656}
-  camTransform: {fileID: 472156656}
-  target: {fileID: 737401497}
+  camTransform: {fileID: 0}
+  target: {fileID: 0}
   smoothing: 5
 --- !u!1 &200250284
 GameObject:
@@ -658,13 +658,13 @@ Prefab:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 746363140}
+    - target: {fileID: 9521460, guid: a94c2ba1dc18de244bb7e0355278338a, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 40ff2fdd8b5442b4886aedd562a330f3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a94c2ba1dc18de244bb7e0355278338a, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &737401497 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 467478, guid: a94c2ba1dc18de244bb7e0355278338a, type: 2}
-  m_PrefabInternal: {fileID: 737401490}
 --- !u!1 &746363138
 GameObject:
   m_ObjectHideFlags: 0

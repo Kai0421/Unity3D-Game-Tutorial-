@@ -1,1 +1,2 @@
-Author : Kai\nLearning Unity 3D gaming
+Learning Unity 3D gaming Shooter Project.
+

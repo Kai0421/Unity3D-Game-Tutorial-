@@ -28,16 +28,17 @@ public class PlayerMovement : MonoBehaviour
         //Keys on keyboard
         float h = Input.GetAxisRaw("Horizontal"); // Interpolated
         float v = Input.GetAxisRaw("Vertical"); // Interpolated
+        float j = Input.GetAxisRaw("Jump"); 
        
-        Move(h, v);
+        Move(h, v, j);
         Turning();
-        Animating(h, v);
+        Walking(h, v);
     }
 
-    void Move(float h, float v)
+    void Move(float h, float v, float j)
     {
         //0f cus there is not need for vertical component/movement which is on the y axis
-        movement.Set(h, 0f, v);
+        movement.Set(h, j, v);
 
         //If it move in x,z axis this is ok but id it move diagonally you get the advantage due to 
         //Pythagorious theorem, this diagonal longer this means that it moves faster then the initial unit of 1
@@ -50,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         playerRigidbody.MovePosition(transform.position + movement);
 
     }
+
 
     //This is based on the mouse input
     void Turning()
@@ -76,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void Animating(float h, float v)
+    void Walking(float h, float v)
     {
         //this is jsut saying that, did the player press the horizontal or the vertical axis
         //if the player pressed either of those, then the player is walking else not.

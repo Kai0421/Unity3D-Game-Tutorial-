@@ -26,7 +26,7 @@ public class CameraFollow : MonoBehaviour
     {
         camTransform = transform;
         cam = Camera.main;
-        offset = transform.position - target.position;
+        //offset = transform.position - target.position;
     }
 
     //Move the camera using Physics component
