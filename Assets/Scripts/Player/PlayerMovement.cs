@@ -3,13 +3,13 @@
 public class PlayerMovement : MonoBehaviour
 {
     //Player moving speed
-    public float speed = 6f;
+    public float speed = 6.0f;
 
     Vector3 movement;
     Animator anim;
     Rigidbody playerRigidbody;
     int floorMask;
-    float camRayLength = 100f; 
+    float camRayLength = 100f;
 
     void Awake()
     {
@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         playerRigidbody = GetComponent<Rigidbody>();
     }
-
+ /*
     //Function thats within unity that will call on every physics updates
     //Unity Runs on number of updates, rendering runs on normal updates
     void FixedUpdate()
@@ -80,9 +80,40 @@ public class PlayerMovement : MonoBehaviour
 
     void Walking(float h, float v)
     {
-        //this is jsut saying that, did the player press the horizontal or the vertical axis
+        //this is just saying that, did the player press the horizontal or the vertical axis
         //if the player pressed either of those, then the player is walking else not.
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
+    }*/
+
+  
+    //Code Changed to adapt First person shooter
+    void Start()
+    {
+        //Lock the mouse
+        Cursor.lockState = CursorLockMode.Locked;
     }
+
+    //Update per frame using normal update method.
+    void Update()
+    {
+        Move();
+
+        if (Input.GetKeyDown("escape"))
+            Cursor.lockState = CursorLockMode.None;
+    }
+
+    void Move()
+    {
+        //Keys on keyboard
+        float h = Input.GetAxisRaw("Horizontal") * speed; // Interpolated
+        float v = Input.GetAxisRaw("Vertical") * speed; // Interpolated
+
+        h *= Time.deltaTime;
+        v *= Time.deltaTime;
+
+        transform.Translate(h, 0, v);
+    }
+
+    
 }
