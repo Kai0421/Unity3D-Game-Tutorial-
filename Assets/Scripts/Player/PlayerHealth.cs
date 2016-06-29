@@ -32,7 +32,6 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = startingHealth;
     }
 
-
     void Update ()
     {
         if(damaged)
@@ -45,7 +44,6 @@ public class PlayerHealth : MonoBehaviour
         }
         damaged = false;
     }
-
 
     public void TakeDamage (int amount)
     {
@@ -63,12 +61,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-
     void Death ()
     {
         isDead = true;
 
-        //playerShooting.DisableEffects ();
+        playerShooting.DisableEffects ();
 
         anim.SetTrigger ("Die");
 
@@ -76,7 +73,7 @@ public class PlayerHealth : MonoBehaviour
         playerAudio.Play ();
 
         playerMovement.enabled = false;
-        //playerShooting.enabled = false;
+        playerShooting.enabled = false;
     }
 
 

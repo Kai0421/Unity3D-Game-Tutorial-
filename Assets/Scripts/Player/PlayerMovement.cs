@@ -76,15 +76,15 @@ public class PlayerMovement : MonoBehaviour
             //apply the new rotation to variable newRotation
             playerRigidbody.MoveRotation(newRotation);
         }
-    }
+    }*/
 
-    void Walking(float h, float v)
+    void WalkingAnimation(float h, float v)
     {
         //this is just saying that, did the player press the horizontal or the vertical axis
         //if the player pressed either of those, then the player is walking else not.
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
-    }*/
+    }
 
   
     //Code Changed to adapt First person shooter
@@ -113,7 +113,6 @@ public class PlayerMovement : MonoBehaviour
         v *= Time.deltaTime;
 
         transform.Translate(h, 0, v);
+        WalkingAnimation(h, v);
     }
-
-    
 }

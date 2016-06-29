@@ -5,11 +5,14 @@ public class EnemyManager : MonoBehaviour
     public PlayerHealth playerHealth;
     public GameObject enemy;
     public float spawnTime = 3f; // 3 seconds
-    public Transform[] spawnPoints; 
-
+    public int numberOfEnemy = 3;
+    public static int deathRate = 0;
+    public Transform[] spawnPoints;
+    public AwardManager awardManager;
 
     void Start ()
     {
+        awardManager = GetComponent<AwardManager>();
         //Using the spawn method and repeat it, Dont need a timer to repeatedly call the method
         //First Param - call the method by the string
         //Second Param - Wait number of time before doing the method again
@@ -17,18 +20,30 @@ public class EnemyManager : MonoBehaviour
         InvokeRepeating ("Spawn", spawnTime, spawnTime);
     }
 
-
-    void Spawn ()
+    void Update()
     {
-        if(playerHealth.currentHealth <= 0f)
+        
+    }
+
+    void Spawn()
+    {
+        if (playerHealth.currentHealth <= 0f) 
         {
             return;
         }
 
-        //Find a random spawn point
-        int spawnPointIndex = Random.Range (0, spawnPoints.Length);
+        if (deathRate < numberOfEnemy)
+        {
+            //Find a random spawn point
+            int spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
-        //Instantiate method create a new Spawn enemy
-        Instantiate (enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+            //Instantiate method create a new Spawn enemy
+            Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+            deathRate++;
+        }
+        else if (deathRate > numberOfEnemy)
+        {
+            awardManager.SpawnAwards();
+        }
     }
 }

@@ -23,7 +23,6 @@ public class PlayerShooting : MonoBehaviour
     //How long is the gun effect last before disappeared
     float effectsDisplayTime = 0.2f;
 
-
     void Awake ()
     {
         shootableMask = LayerMask.GetMask ("Shootable");

@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 33d962e0f244a894ca80f7522e95cd06
+timeCreated: 1465780157
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Ctrl_Grp
+    100004: Head
+    100006: HeadEnd
+    100008: HeadEnd_end
+    100010: Hips
+    100012: Lamp
+    100014: Lamp.001
+    100016: Lamp.002
+    100018: LeftEar
+    100020: LeftEarEnd
+    100022: LeftEarEnd_end
+    100024: LeftFoot
+    100026: LeftFootEnd
+    100028: LeftFootEnd_end
+    100030: LeftLeg
+    100032: LeftLowerArm
+    100034: LeftLowerArmFK
+    100036: LeftLowerArmIK
+    100038: LeftUpperArm
+    100040: LeftUpperArmFK
+    100042: LeftUpperArmIK
+    100044: LeftWrist
+    100046: LeftWristEnd
+    100048: LeftWristEnd_end
+    100050: LeftWristFK
+    100052: LeftWristFK_end
+    100054: LeftWristIK
+    100056: LeftWristIK_end
+    100058: RightEar
+    100060: RightEarEnd
+    100062: RightEarEnd_end
+    100064: RightFoot
+    100066: RightFootEnd
+    100068: RightFootEnd_end
+    100070: RightLeg
+    100072: RightLowerArm
+    100074: RightLowerArmFK
+    100076: RightLowerArmIK
+    100078: RightUpperArm
+    100080: RightUpperArmFK
+    100082: RightUpperArmIK
+    100084: RightWrist
+    100086: RightWristEnd
+    100088: RightWristEnd_end
+    100090: RightWristFK
+    100092: RightWristFK_end
+    100094: RightWristIK
+    100096: RightWristIK_end
+    100098: Root
+    100100: Spine
+    100102: Torus
+    100104: Zombunny
+    100106: //RootNode
+    400000: Camera
+    400002: Ctrl_Grp
+    400004: Head
+    400006: HeadEnd
+    400008: HeadEnd_end
+    400010: Hips
+    400012: Lamp
+    400014: Lamp.001
+    400016: Lamp.002
+    400018: LeftEar
+    400020: LeftEarEnd
+    400022: LeftEarEnd_end
+    400024: LeftFoot
+    400026: LeftFootEnd
+    400028: LeftFootEnd_end
+    400030: LeftLeg
+    400032: LeftLowerArm
+    400034: LeftLowerArmFK
+    400036: LeftLowerArmIK
+    400038: LeftUpperArm
+    400040: LeftUpperArmFK
+    400042: LeftUpperArmIK
+    400044: LeftWrist
+    400046: LeftWristEnd
+    400048: LeftWristEnd_end
+    400050: LeftWristFK
+    400052: LeftWristFK_end
+    400054: LeftWristIK
+    400056: LeftWristIK_end
+    400058: RightEar
+    400060: RightEarEnd
+    400062: RightEarEnd_end
+    400064: RightFoot
+    400066: RightFootEnd
+    400068: RightFootEnd_end
+    400070: RightLeg
+    400072: RightLowerArm
+    400074: RightLowerArmFK
+    400076: RightLowerArmIK
+    400078: RightUpperArm
+    400080: RightUpperArmFK
+    400082: RightUpperArmIK
+    400084: RightWrist
+    400086: RightWristEnd
+    400088: RightWristEnd_end
+    400090: RightWristFK
+    400092: RightWristFK_end
+    400094: RightWristIK
+    400096: RightWristIK_end
+    400098: Root
+    400100: Spine
+    400102: Torus
+    400104: Zombunny
+    400106: //RootNode
+    2300000: Torus
+    3300000: Torus
+    4300000: Zombunny
+    4300002: Torus
+    7400000: Ctrl_Grp|Ctrl_Grp|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: Zombunny
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

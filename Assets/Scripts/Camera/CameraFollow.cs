@@ -6,6 +6,8 @@ public class CameraFollow : MonoBehaviour
     Vector2 mouseLook;
     Vector2 smoothV; //Smooth the rotation movement.
     public float sensitivity = 5.0f, smoothing = 2.0f; //Mouse Sensitivity.
+    private const float Y_ANGLE_MIN = 5.0f, Y_ANGLE_MAX = 30.0f;
+    private float currentX = 0.0f, currentY = 0.0f;
 
     GameObject character;
 
@@ -14,10 +16,8 @@ public class CameraFollow : MonoBehaviour
     public Transform camTransform;
     private Camera cam;
     private float distance = 10.0f;
-    private float currentX = 0.0f;
-    private float currentY = 0.0f;
-    private const float Y_ANGLE_MIN = 5.0f;
-    private const float Y_ANGLE_MAX = 30.0f;
+   
+   
 
     //Target for camera to follow
     public Transform target;
@@ -61,15 +61,16 @@ public class CameraFollow : MonoBehaviour
     //Update per frame using normal update method.
     private void Update()
     {
-        Turning();
+        
         if (Input.GetKeyDown("escape"))
             Cursor.lockState = CursorLockMode.None;
 
-        //currentX += Input.GetAxis("Mouse X");
-        //currentY += Input.GetAxis("Mouse Y");
+        currentX += Input.GetAxis("Mouse X");
+        currentY += Input.GetAxis("Mouse Y");
 
         //Dont want to make a y Axis to have a full Loop
-        //currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MIN);
+        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MIN);
+        Turning();
     }
 
     void Turning()
