@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: c818beffd6da9ea4ca6ca3bf8fde7f6e
+timeCreated: 1465763330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Ctrl_Grp
+    100004: Hellephant
+    100006: //RootNode
+    100008: Hips
+    100010: Lamp
+    100012: Lamp.001
+    100014: Lamp.002
+    100016: LeftEar1
+    100018: LeftEar2
+    100020: LeftEarEnd
+    100022: LeftEarEnd_end
+    100024: LeftFoot
+    100026: LeftFootEnd
+    100028: LeftFootEnd_end
+    100030: LeftLeg
+    100032: RightEar1
+    100034: RightEar2
+    100036: RightEarEnd
+    100038: RightEarEnd_end
+    100040: RightFoot
+    100042: RightFootEnd
+    100044: RightFootEnd_end
+    100046: RightLeg
+    100048: Root
+    100050: Spine1
+    100052: Spine2
+    100054: SpineEnd
+    100056: SpineEnd_end
+    100058: Torus
+    100060: Trunk1
+    100062: Trunk2
+    100064: Trunk3
+    100066: TrunkEnd
+    100068: TrunkEnd_end
+    400000: Camera
+    400002: Ctrl_Grp
+    400004: Hellephant
+    400006: //RootNode
+    400008: Hips
+    400010: Lamp
+    400012: Lamp.001
+    400014: Lamp.002
+    400016: LeftEar1
+    400018: LeftEar2
+    400020: LeftEarEnd
+    400022: LeftEarEnd_end
+    400024: LeftFoot
+    400026: LeftFootEnd
+    400028: LeftFootEnd_end
+    400030: LeftLeg
+    400032: RightEar1
+    400034: RightEar2
+    400036: RightEarEnd
+    400038: RightEarEnd_end
+    400040: RightFoot
+    400042: RightFootEnd
+    400044: RightFootEnd_end
+    400046: RightLeg
+    400048: Root
+    400050: Spine1
+    400052: Spine2
+    400054: SpineEnd
+    400056: SpineEnd_end
+    400058: Torus
+    400060: Trunk1
+    400062: Trunk2
+    400064: Trunk3
+    400066: TrunkEnd
+    400068: TrunkEnd_end
+    2300000: Torus
+    3300000: Torus
+    4300000: Hellephant
+    4300002: Torus
+    7400000: Ctrl_Grp|Ctrl_Grp|Take 001|BaseLayer.001
+    9500000: //RootNode
+    13700000: Hellephant
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

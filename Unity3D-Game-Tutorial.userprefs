@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Unity3D-Game-Tutorial.CSharp.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AntiAliasing\AntiAliasing.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AntiAliasing\AntiAliasing.cs" Line="286" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3D-Game-Tutorial-.CSharp.Plugins", "Unity3D-Game-Tutorial-.CSharp.Plugins.csproj", "{6FEAEFD3-9A2E-5450-93BF-F49AEA0DE8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3D-Game-Tutorial-.CSharp", "Unity3D-Game-Tutorial-.CSharp.csproj", "{6DC8AAF7-AC7C-392C-BB0E-2E45DFCE2212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity3D-Game-Tutorial-.CSharp.Editor", "Unity3D-Game-Tutorial-.CSharp.Editor.csproj", "{EDC5D7DA-7DB7-E53A-5636-A30BB079AD7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FEAEFD3-9A2E-5450-93BF-F49AEA0DE8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEAEFD3-9A2E-5450-93BF-F49AEA0DE8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEAEFD3-9A2E-5450-93BF-F49AEA0DE8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEAEFD3-9A2E-5450-93BF-F49AEA0DE8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC8AAF7-AC7C-392C-BB0E-2E45DFCE2212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC8AAF7-AC7C-392C-BB0E-2E45DFCE2212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC8AAF7-AC7C-392C-BB0E-2E45DFCE2212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC8AAF7-AC7C-392C-BB0E-2E45DFCE2212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC5D7DA-7DB7-E53A-5636-A30BB079AD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC5D7DA-7DB7-E53A-5636-A30BB079AD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC5D7DA-7DB7-E53A-5636-A30BB079AD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC5D7DA-7DB7-E53A-5636-A30BB079AD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
